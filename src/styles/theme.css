@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
+
+:root {
+  --accent: #3366E6;
+  --accent-lt: #5B8DEF;
+  --accent-dk: #2554C7;
+  --accent-a30: #3366E620;
+  --accent-warm: #D95B8A;
+  --bg: #FBF9F7;
+  --bg-card: #FFFFFF;
+  --bg-el: #F5F0EB;
+  --text: #1F1F1F;
+  --text-sec: #4A4540;
+  --text-muted: #737373;
+  --border: #E8E2D9;
+  --border-acc: #3366E618;
+  --shadow: 0 1px 3px rgba(74,69,64,.04), 0 1px 2px rgba(74,69,64,.02);
+  --shadow-lg: 0 4px 24px rgba(74,69,64,.06);
+  --shadow-xl: 0 12px 48px rgba(74,69,64,.07);
+  --r: 0.5rem;
+  --rs: 0.5rem;
+  --ff: 'Zen Maru Gothic', sans-serif;
+  --ff-d: 'Noto Serif JP', serif;
+  --ff-l: 'Zen Maru Gothic', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+button { border: none; outline: none; background: transparent; }
+button:focus, button:focus-visible { outline: none !important; box-shadow: none !important; }
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+a { text-decoration: none; }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: .6; }
+  50% { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+::selection { background: var(--accent-a30); color: var(--text); }
