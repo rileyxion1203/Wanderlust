@@ -2,7 +2,13 @@
 
 Enter a destination, budget, and trip length — get restaurant picks, attractions, hotel recommendations, and a day-by-day schedule with real prices sourced from the web.
 
-![Wanderlust Demo](./docs/demo.gif)
+<p align="center">
+  <img src="./docs/demo1.gif" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./docs/demo2.gif" width="100%" />
+</p>
 
 ## Getting Started
 
