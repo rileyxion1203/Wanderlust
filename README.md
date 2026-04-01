@@ -1,4 +1,4 @@
-# ✦ Wanderlust
+# Wanderlust
 
 **Enter a destination, budget, and trip length — get a complete itinerary with restaurants, attractions, hotels, and real prices.**
 
